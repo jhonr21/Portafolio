@@ -1,5 +1,6 @@
 // components/Contact.js
 import { FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import baner from "../../public/6zqP7GuDZEBftJKxmmz8_9MigqXU3rPSxp4B_LN99KI.webp";
 
 const Contact = () => {
   return (
@@ -18,7 +19,7 @@ const Contact = () => {
       {/* Imagen */}
       <div className="mb-4">
         <img
-          src="/public/Avengers-Infinity-War-Family-PNG.png"
+          src={baner}
           alt="Banner Avengers"
           className="img-fluid rounded shadow w-50"
         />
