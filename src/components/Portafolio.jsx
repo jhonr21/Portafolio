@@ -1,7 +1,6 @@
 // components/Portfolio.js
 import React from "react";
-const logo2 = "../../public/Avengers.png";
-
+import logo2 from "../../public/Avengers.png";
 const Portfolio = () => {
   const projects = [
     {
