@@ -1,0 +1,105 @@
+/* 🎨 Estilos Globales */
+html, body {
+    background: linear-gradient(135deg, #0033cc, #ff0000);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+/* 📱 Ajuste del Tamaño de la Imagen en Móviles */
+@media (max-width: 768px) { .foto { width: 80%; } }
+@media (max-width: 480px) { .foto { width: 90%; } }
+
+/* 🎇 Skills (Gemas del Infinito) */
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    animation: glowing-bg 2.5s infinite alternate ease-in-out; /* ✨ Brillo automático */
+}
+
+/* ✨ Animación de Brillo en el Fondo */
+@keyframes glowing-bg {
+    0% { 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); 
+        transform: scale(1);
+    }
+    50% { 
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6); 
+        transform: scale(1.05);
+    }
+    100% { 
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); 
+        transform: scale(1);
+    }
+}
+
+/* 🔗 Barra de Navegación */
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #444;
+}
+
+/* 📦 Contenedor Principal */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 96rem;
+}
+
+/* 📱 Responsividad del Portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+@media (max-width: 768px) { .portfolio-card { padding: 1rem; } }
+
+/* 💬 Sección de Contacto */
+.contact-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 📱 Texto de Contacto en Móviles */
+@media (max-width: 768px) { .contact-container { font-size: 0.9rem; } }
+
+/* 🃏 Tarjeta Personalizada */
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+/* 📍 Alineación del Avatar */
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(243, 7, 7, 0.3);
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+}
