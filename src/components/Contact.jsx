@@ -18,7 +18,7 @@ const Contact = () => {
       {/* Imagen */}
       <div className="mb-4">
         <img
-          src="/public//6zqP7GuDZEBftJKxmmz8_9MigqXU3rPSxp4B_LN99KI.webp"
+          src="/public/6zqP7GuDZEBftJKxmmz8_9MigqXU3rPSxp4B_LN99KI.webp"
           alt="Banner Avengers"
           className="img-fluid rounded shadow w-50"
         />
