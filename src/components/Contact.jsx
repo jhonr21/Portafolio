@@ -17,7 +17,11 @@ const Contact = () => {
 
       {/* Imagen */}
       <div className="mb-4">
-        <img alt="Banner Avengers" className="img-fluid rounded shadow w-50" />
+        <img
+          src="/public/Avengers-Infinity-War-Family-PNG.png"
+          alt="Banner Avengers"
+          className="img-fluid rounded shadow w-50"
+        />
       </div>
 
       {/* Información de Contacto */}
