@@ -1,6 +1,7 @@
-// components/Portfolio.js
 import React from "react";
-import logo2 from "../../public/Avengers.png";
+
+const logo2 = "/public/Avengers.png"; // Carga optimizada desde `public/`
+
 const Portfolio = () => {
   const projects = [
     {
@@ -43,7 +44,7 @@ const Portfolio = () => {
   return (
     <div className="container py-5">
       <h1 className="text-center mb-4">
-        💥 Mi Portafolio: Aqui mis ultimas misiones 💥
+        💥 Mi Portafolio: Aquí mis últimas misiones 💥
       </h1>
       <p className="text-center mb-5">
         🔥 Misiones Completadas y en Curso 💼🦸‍♂️ En cada batalla tecnológica, un
@@ -64,12 +65,13 @@ const Portfolio = () => {
           <div key={index} className="col">
             {/* Tarjeta personalizada */}
             <div className="card h-100 shadow-lg border-0 rounded-3">
-              {/* Imagen de fondo */}
+              {/* Imagen con carga optimizada */}
               <div className="card-custom-img">
                 <img
                   src={logo2}
                   alt="Jhon Rangel"
                   className="img-fluid rounded foto"
+                  loading="lazy"
                 />
               </div>
 
@@ -92,13 +94,14 @@ const Portfolio = () => {
                 >
                   Ver Proyecto
                 </a>
+
                 <a
                   href={project.git}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary w-100 mt-2"
+                  className="btn btn-secondary w-100 mt-2"
                 >
-                  Git
+                  GitHub
                 </a>
               </div>
             </div>
