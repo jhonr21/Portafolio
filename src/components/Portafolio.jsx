@@ -1,6 +1,6 @@
 import React from "react";
 
-const logo2 = "../../public/avengers.png"; // Carga optimizada desde `public/`
+import imgPorta from "../../public/avengers.png"; // Carga optimizada desde `public/`
 
 const Portfolio = () => {
   const projects = [
@@ -68,7 +68,7 @@ const Portfolio = () => {
               {/* Imagen con carga optimizada */}
               <div className="card-custom-img">
                 <img
-                  src={logo2}
+                  src={imgPorta}
                   alt="Jhon Rangel"
                   className="img-fluid rounded foto"
                   loading="lazy"
