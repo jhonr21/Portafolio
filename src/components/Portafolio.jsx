@@ -66,7 +66,7 @@ const Portfolio = () => {
               {/* Imagen con carga optimizada */}
               <div className="card-custom-img">
                 <img
-                  src={imgPorta}
+                  src="/avengers.png"
                   alt="Jhon Rangel"
                   className="img-fluid rounded foto"
                   loading="lazy"
