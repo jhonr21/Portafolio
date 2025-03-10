@@ -1,7 +1,5 @@
 import React from "react";
-
-import imgPorta from "../../public/avengers.png"; // Carga optimizada desde `public/`
-
+import imgPorta from "../../public/avengers.png";
 const Portfolio = () => {
   const projects = [
     {
