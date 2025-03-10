@@ -1,5 +1,5 @@
 import React from "react";
-import imgPorta from "../../public/avengers.png;
+
 const Portfolio = () => {
   const projects = [
     {
