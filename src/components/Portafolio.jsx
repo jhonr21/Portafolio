@@ -1,6 +1,6 @@
 import React from "react";
 
-const logo2 = "../../public/Avengers.png"; // Carga optimizada desde `public/`
+const logo2 = "../../public/avengers.png"; // Carga optimizada desde `public/`
 
 const Portfolio = () => {
   const projects = [
