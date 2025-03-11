@@ -6,7 +6,6 @@ const Portfolio = () => {
       name: "Formulario Controlado Tareas",
       description: "CRUD con React, JavaScript y Bootstrap.",
       link: "https://formulario-controlado1.netlify.app/",
-      git: "",
     },
     {
       name: "Formulario con Tailwind",
