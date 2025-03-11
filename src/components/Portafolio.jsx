@@ -19,6 +19,7 @@ const Portfolio = () => {
       name: "Pagina Freelancer",
       description: "Maqueteo HTML, CSS, JavaScript.",
       link: "https://solo-html.netlify.app/",
+      git: "https://github.com/jhonr21/Freelancer",
     },
     {
       name: "Pagina Cafetería",
