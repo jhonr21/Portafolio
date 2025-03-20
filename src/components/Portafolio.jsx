@@ -41,7 +41,7 @@ const Portfolio = () => {
 
         {
       name: "React-Router-basic",
-      description: "plicación web desarrollada con React + React Router, que permite navegar entre páginas como Inicio, Blog, Contacto y NotFound. El Blog consume una API externa (jsonplaceholder) para listar publicaciones, incluye filtro dinámico por título con query params, y permite ver detalles individuales de cada post. Estilizado con Bootstrap ",
+      description: "Aplicación web desarrollada con React + React Router, que permite navegar entre páginas como Inicio, Blog, Contacto y NotFound. El Blog consume una API externa (jsonplaceholder) para listar publicaciones, incluye filtro dinámico por título con query params, y permite ver detalles individuales de cada post. Estilizado con Bootstrap ",
       link: "https://react-router-prrimerapp.netlify.app/",
       git: "https://github.com/jhonr21/React-Router-basic",
     },
