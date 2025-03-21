@@ -49,7 +49,7 @@ const Portfolio = () => {
     {
       name: "Portal de Acceso(Login y Dashboard)",
       description: "React.js, Tailwind CSS, React Router DOM, Context API, Vite, JavaScript ES6+",
-      link: "portal-de-acceso.netlify.app",
+      link: "https://portal-de-acceso.netlify.app",
       git: "https://github.com/jhonr21/Login-tailwind",
     },
     
