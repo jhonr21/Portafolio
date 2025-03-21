@@ -30,7 +30,7 @@ const Portfolio = () => {
       name: "Búsqueda de Git",
       description: "Consumo de APIs con React.",
       link: "https://git-busqueda-api.netlify.app/",
-      git: "https://github.com/jhonr21/04-git-expert-app",
+      git: "https://github.com/jhonr21/busqueda-gif",
     },
     {
       name: "Página de Películas",
