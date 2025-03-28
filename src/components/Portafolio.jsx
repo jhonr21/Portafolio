@@ -52,6 +52,13 @@ const Portfolio = () => {
       link: "https://portal-de-acceso.netlify.app",
       git: "https://github.com/jhonr21/Login-tailwind",
     },
+
+        {
+      name: "Pokedex ,
+      description: "React.js, Material UI, consumo de api, buscador, modo nocturno",
+      link: "pokedexj1.netlify.app",
+      git: "https://github.com/jhonr21/pokedex",
+    },
     
   ];
 
