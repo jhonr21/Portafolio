@@ -56,7 +56,7 @@ const Portfolio = () => {
         {
       name: "Pokedex" ,
       description: "React.js, Material UI, consumo de api, buscador, modo nocturno",
-      link: "pokedexj1.netlify.app",
+      link: "https://pokedexj1.netlify.app/",
       git: "https://github.com/jhonr21/pokedex",
     },
     
